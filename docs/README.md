@@ -21,3 +21,10 @@
 
 该模板为一个简洁，并且完善的Docsify模板基本上可以满足百分之八十多的团队需求，你可以按照文章中的Docsify环境配置教程把运行Docsify所需要的环境配置起来，通过命令即可查看效果（配置环境顺利的话只要十来分钟）。
 
+
+
+#### 阅读文档推荐
+
+官网文档：https://docsify.js.org/#/quickstart
+
+博客文档：https://blog.csdn.net/liyou123456789/article/details/124504727
