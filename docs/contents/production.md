@@ -15,6 +15,7 @@ window上主要是日常博客的编写，然后用git来管理，上传到gitee
 <div align=left><img src="/img/gtee_00.png" style="zoom:100%;" />
 </div>
 
+
 #### 页面效果请参考
 
 生成的giteePages地址是https://bluecusliyou.gitee.io/techlearn
