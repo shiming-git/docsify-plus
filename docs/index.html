@@ -11,15 +11,20 @@
 		<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
 		<!-- 默认主题 -->
 		<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/lib/themes/vue.css">
+		<!-- <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/lib/themes/vue.css" /> -->
+		<!-- <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/lib/themes/buble.css" /> -->
+		<!-- <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/lib/themes/dark.css" /> -->
+		<!-- <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/lib/themes/pure.css" /> -->
 	</head>
 	<body>
 		<div data-app id="main">加载中</div>
-
 		<script>
 			window.$docsify = {
 				el: '#main',
 				// 项目名称
 				name: '在线免费文档',
+				// 项目图标
+				// logo: '/_media/icon.svg',
 				// 仓库地址，点击右上角的Github章鱼猫头像会跳转到此地址
 				repo: 'https://gitee.com/librarycodes/docsify-low-cost-model',
 				// 侧边栏支持，默认加载的是项目根目录下的_sidebar.md文件
@@ -27,28 +32,39 @@
 				// 导航栏支持，默认加载的是项目根目录下的_navbar.md文件
 				loadNavbar: true,
 				// 封面支持，默认加载的是项目根目录下的_coverpage.md文件
-				coverpage: true,
+				coverpage: ['/', '/zh-en/'],
 				// 最大支持渲染的标题层级
 				maxLevel: 5,
 				// 自定义侧边栏后默认不会再生成目录，设置生成目录的最大层级（建议配置为2-4）
 				subMaxLevel: 4,
 				// 小屏设备下合并导航栏到侧边栏
 				mergeNavbar: true,
-				// 过期时间，单位毫秒，默认一天
-				maxAge: 86400000,
-				// 注意：仅适用于 paths: 'auto' 模式
-				paths: "auto",
-				// 全文搜索
-				placeholder: '搜索',
-				// 支持本地化
-				placeholder: {
-					'/zh-cn/': '搜索',
-					'/': 'Type to search'
+				search:{
+					// 过期时间，单位毫秒，默认一天
+					maxAge: 86400000,
+					// 注意：仅适用于 paths: 'auto' 模式
+					paths: "auto",
+					// 支持本地化
+					placeholder: {
+						'/': '搜索',
+						'/zh-en/': 'Type to search'
+					},
+					noData: '找不到结果',
+					depth: 4,
+					hideOtherSidebarContent: false,
+					namespace: 'Docsify-Guide',
 				},
-				noData: '找不到结果',
-				depth: 4,
-				hideOtherSidebarContent: false,
-				namespace: 'Docsify-Guide',
+				
+				formatUpdated: '{YYYY}-{MM}-{DD} {HH}:{mm}',
+				formatUpdated: function(time) {
+					return time;
+				},
+				// 目标是在 markdown 中打开外部链接。默认'_blank'（新窗口/标签）
+				externalLinkTarget: '_blank', // default: '_blank' '_self'
+				// 理由模式
+				routerMode: 'history', // default: 'hash'
+				// 未找到页面 _404.md
+				notFoundPage: true,
 			}
 		</script>
 		<!-- docsify的js依赖 -->
@@ -61,5 +77,7 @@
 		<script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
 		<!--在所有的代码块上添加一个简单的Click to copy按钮来允许用户从你的文档中轻易地复制代码-->
 		<script src="//cdn.jsdelivr.net/npm/docsify-copy-code/dist/docsify-copy-code.min.js"></script>
+		<!-- 分页导航 -->
+		<script src="//cdn.jsdelivr.net/npm/docsify-pagination/dist/docsify-pagination.min.js"></script>
 	</body>
 </html>

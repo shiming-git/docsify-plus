@@ -10,3 +10,9 @@
   * [Docsify](https://docsify.js.org/#/)
   * [博客园](https://www.cnblogs.com)
   * [CDN](https://www.jsdelivr.com/)
+
+* 语言
+  * [中文](/)
+  * [En](/zh-en/)
+
+	

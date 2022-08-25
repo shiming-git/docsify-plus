@@ -12,5 +12,5 @@
 
 [Gitee](https://gitee.com/librarycodes/docsify-low-cost-model)
 [GitHub](https://gitee.com/librarycodes/docsify-low-cost-model)
-[Docsify官网](https://docsify.js.org/#/)
-[快速开始](README.md)
+[Docsify](https://docsify.js.org/#/)
+[Get Started](README.md)
