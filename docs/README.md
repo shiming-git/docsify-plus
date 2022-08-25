@@ -28,3 +28,5 @@
 官网文档：https://docsify.js.org/#/quickstart
 
 博客文档：https://blog.csdn.net/liyou123456789/article/details/124504727
+
+CDN官网：https://www.jsdelivr.com/
