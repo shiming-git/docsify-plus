@@ -12,7 +12,8 @@ window上主要是日常博客的编写，然后用git来管理，上传到gitee
 
 部署选择你要部署的分支，部署的目录就是docsify对应仓库中的目录，我这边是整个仓库作为docsify目录，建议强制使用https勾选，然后就可以启动。
 
-
+<div align=left><img src="/img/gtee_00.png" style="zoom:100%;" />
+</div>
 
 #### 页面效果请参考
 
@@ -35,7 +36,6 @@ window上主要是日常博客的编写，然后用git来管理，上传到gitee
 - gh-pages 分支
 
 建议您将文件保存到存储库分支的`./docs`子文件夹中。`master`然后`master branch /docs folder`在存储库的设置页面中选择作为 GitHub Pages 源。
-
 
 
 您也可以将文件保存在根目录中，然后选择`master branch`. 您需要`.nojekyll`在部署位置放置一个文件（例如`/docs`gh-pages 分支）
