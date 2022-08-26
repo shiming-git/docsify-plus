@@ -26,7 +26,7 @@
 				// 项目图标
 				// logo: '/img/icon.svg',
 				// 仓库地址，点击右上角的Github章鱼猫头像会跳转到此地址
-				repo: 'https://gitee.com/librarycodes/docsify-low-cost-model',
+				repo: 'https://gitee.com/librarycodes/docsify-plus',
 				// 侧边栏支持，默认加载的是项目根目录下的_sidebar.md文件
 				loadSidebar: true,
 				// 导航栏支持，默认加载的是项目根目录下的_navbar.md文件
@@ -49,7 +49,10 @@
 						'/': '搜索',
 						'/zh-en/': 'Type to search'
 					},
-					noData: '找不到结果',
+					noData: {
+					        '/': '找不到结果',
+					        '/zh-en/': 'No Results'
+					      },
 					depth: 4,
 					hideOtherSidebarContent: false,
 					namespace: 'Docsify-Guide',

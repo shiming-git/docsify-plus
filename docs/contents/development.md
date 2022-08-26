@@ -33,10 +33,10 @@ npm i docsify-cli -g
 
 ```
 Gitee地址：
-https://gitee.com/librarycodes/docsify-low-cost-model
+https://gitee.com/librarycodes/docsify-plus
 
 GitHub地址：
-https://github.com/shiming-git/docsify-low-cost-model
+https://github.com/shiming-git/docsify-plus
 ```
 
 ### 运行Docsify-Plus
