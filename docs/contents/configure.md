@@ -428,3 +428,61 @@ window.$docsify = {
 };
 ```
 
+### 图片
+
+#### 调整大小
+
+```md
+![logo](https://docsify.js.org/_media/icon.svg ':size=WIDTHxHEIGHT')
+![logo](https://docsify.js.org/_media/icon.svg ':size=50x100')
+![logo](https://docsify.js.org/_media/icon.svg ':size=100')
+
+<!-- Support percentage -->
+
+![logo](https://docsify.js.org/_media/icon.svg ':size=10%')
+```
+
+#### 自定义类
+
+```md
+![logo](https://docsify.js.org/_media/icon.svg ':class=someCssClass')
+```
+
+#### 自定义 ID
+
+```md
+![logo](https://docsify.js.org/_media/icon.svg ':id=someCssId')
+```
+
+#### 自定义标题 ID
+
+```md
+### Hello, world! :id=hello-world
+```
+
+### html标签中的Markdown
+
+您需要在 html 和 markdown 内容之间插入一个空格。这对于在 details 元素中呈现 markdown 内容很有用。
+
+```markdown
+<details>
+<summary>Self-assessment (Click to expand)</summary>
+
+- Abc
+- Abc
+
+</details>
+```
+
+Markdown 内容也可以包装在 html 标签中。
+
+```html
+<div style='color: red'>
+
+- listitem
+- listitem
+- listitem
+
+</div>
+```
+
