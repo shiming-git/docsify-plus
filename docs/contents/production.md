@@ -12,7 +12,7 @@ window上主要是日常博客的编写，然后用git来管理，上传到gitee
 
 部署选择你要部署的分支，部署的目录就是docsify对应仓库中的目录，我这边是整个仓库作为docsify目录，建议强制使用https勾选，然后就可以启动。
 
-<div align=left><img src="/img/gtee_00.png" style="zoom:100%;" />
+<div align=left><img src="https://librarycodes.gitee.io/docsify-plus/img/gtee_00.png" style="zoom:100%;" />
 </div>
 
 
@@ -26,7 +26,8 @@ window上主要是日常博客的编写，然后用git来管理，上传到gitee
 
 如果页面内容有修改更新到仓库了，可以点击更新个人页面
 
-
+<div align=left><img src="https://librarycodes.gitee.io/docsify-plus/img/gtee_01.png" style="zoom:100%;" />
+</div>
 
 ### GitHub部署
 

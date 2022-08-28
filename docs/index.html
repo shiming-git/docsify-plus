@@ -7,8 +7,8 @@
 		<meta name="viewport" content="width=device-width,initial-scale=1">
 		<meta name="description" content="Description">
 		<!-- 设置浏览器图标 -->
-		<link rel="icon" href="/img/logo.ico" type="image/x-icon" />
-		<link rel="shortcut icon" href="/img/logo.ico" type="image/x-icon" />
+		<link rel="icon" href="https://librarycodes.gitee.io/docsify-plus/img/logo.ico" type="image/x-icon" />
+		<link rel="shortcut icon" href="https://librarycodes.gitee.io/docsify-plus/img/logo.ico" type="image/x-icon" />
 		<!-- 默认主题 -->
 		<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/lib/themes/vue.css">
 		<!-- <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/lib/themes/vue.css" /> -->
@@ -27,18 +27,21 @@
 				// logo: '/img/icon.svg',
 				// 仓库地址，点击右上角的Github章鱼猫头像会跳转到此地址
 				repo: 'https://gitee.com/librarycodes/docsify-plus',
+				// 封面支持，默认加载的是项目根目录下的_coverpage.md文件
+				coverpage: true,
 				// 侧边栏支持，默认加载的是项目根目录下的_sidebar.md文件
 				loadSidebar: true,
 				// 导航栏支持，默认加载的是项目根目录下的_navbar.md文件
 				loadNavbar: true,
-				// 封面支持，默认加载的是项目根目录下的_coverpage.md文件
-				coverpage: ['/', '/zh-en/'],
 				// 最大支持渲染的标题层级
 				maxLevel: 5,
 				// 自定义侧边栏后默认不会再生成目录，设置生成目录的最大层级（建议配置为2-4）
 				subMaxLevel: 4,
 				// 小屏设备下合并导航栏到侧边栏
 				mergeNavbar: true,
+				// 未找到页面 _404.md
+				notFoundPage: true,
+				// 搜索配置
 				search:{
 					// 过期时间，单位毫秒，默认一天
 					maxAge: 86400000,
@@ -64,12 +67,6 @@
 				},
 				// 目标是在 markdown 中打开外部链接。默认'_blank'（新窗口/标签）
 				externalLinkTarget: '_blank', // default: '_blank' '_self'
-				// 理由模式
-				routerMode: 'history', // default: 'hash'
-				// 未找到页面 _404.md
-				notFoundPage: true,
-				// 网站的基本路径。您可以将其设置为另一个目录或另一个域名。
-				basePath:"/",
 			}
 		</script>
 		<!-- docsify的js依赖 -->

@@ -30,3 +30,5 @@
 博客文档：https://blog.csdn.net/liyou123456789/article/details/124504727
 
 CDN官网：https://www.jsdelivr.com/
+
+演示地址：https://librarycodes.gitee.io/docsify-plus
